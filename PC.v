@@ -5,9 +5,7 @@ module PC(
 
 	reg [31:0] instr_temp=instr_in;
 	
-always@ (posedge clk)begin
-	
-end
+
 	
 
 
