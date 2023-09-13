@@ -1,20 +1,26 @@
-module dataMem(
+module DataMem(
 	input clk,
+	input rst,
 	input [31:0] A,
-	output [31:0] RD)
+	input WE,
+	input [31:0]WD,
+	output [31:0] RD);
 	
 	
-reg [31:0][31:0] memory;
-
-memory[14]=5;
+reg [31:0] memory [1023:0];
 
 reg [31:0] out;
 reg [31:0] in;
 	
 always@(posedge clk)begin
-	in=A;
-	out=memory[in];
+	if (WE) begin
+		begin
+			memory[A]<=WD;
+		end
+	end
 	
 end 
 
-assign RD=out;
+assign RD=(!rst)?32'd0: memory[A];
+
+endmodule

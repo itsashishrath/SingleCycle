@@ -1,11 +1,22 @@
 module InstrMem(
 	input [31:0]A,
-	output [31:0] RD
+	output [31:0] RD,
+	input rst 
 	);
 	
-	reg [15:0]PC
+	reg [31:0] Mem[1023:0];
 	
-//	address A usjagah se 32 bit ka instruction lena 
+	initial begin
+    $readmemh("memfile.hex",Mem);
+  end
+
+
+	assign RD =(rst==1'b0)? 32'd0:Mem[A];
 	
-//	RD=instruction;
+	
+
+
+endmodule
+	
+
 	

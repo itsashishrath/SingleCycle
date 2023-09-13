@@ -1,0 +1,309 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hp/Desktop/SingleCycle/simulation/modelsim
+vAluControl
+Z1 !s110 1693571192
+!i10b 1
+!s100 GLB<dm4TEina_[diV@m[W2
+IL1JC?kE3X^4;C=9Vbo5HQ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693554058
+8C:/Users/hp/Desktop/SingleCycle/alucontrol.v
+FC:/Users/hp/Desktop/SingleCycle/alucontrol.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1693571192.000000
+!s107 C:/Users/hp/Desktop/SingleCycle/alucontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/alucontrol.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle
+Z7 tCvgOpt 0
+n@alu@control
+vAluDecoder
+Z8 !s110 1693571193
+!i10b 1
+!s100 HDk8M7FQhSf?@:Vf_0`>e1
+Ih9?aS0bk3^_^cjZcf:DP>3
+R2
+R0
+w1693481598
+8C:/Users/hp/Desktop/SingleCycle/aludecoder.v
+FC:/Users/hp/Desktop/SingleCycle/aludecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1693571193.000000
+!s107 C:/Users/hp/Desktop/SingleCycle/aludecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/aludecoder.v|
+!i113 1
+R5
+R6
+R7
+n@alu@decoder
+vControl_unit
+R8
+!i10b 1
+!s100 <0BL3nO8dAd`oWZBBK<Cg2
+I;[mE=n<Z`<i>@e]7]2;G:1
+R2
+R0
+w1693559854
+8C:/Users/hp/Desktop/SingleCycle/control_unit.v
+FC:/Users/hp/Desktop/SingleCycle/control_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/control_unit.v|
+!i113 1
+R5
+R6
+R7
+n@control_unit
+vDataMem
+R8
+!i10b 1
+!s100 C9zbWbYDLo:<o0WfiX_8<2
+IPIk`lkf0bEBLZ9`10H5SD0
+R2
+R0
+w1693555265
+8C:/Users/hp/Desktop/SingleCycle/datamem.v
+FC:/Users/hp/Desktop/SingleCycle/datamem.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hp/Desktop/SingleCycle/datamem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/datamem.v|
+!i113 1
+R5
+R6
+R7
+n@data@mem
+vInstrMem
+R8
+!i10b 1
+!s100 63nVcg3Oa:bHo0zI4M`am0
+IVN5IEm38EHkM]>QefD^TV2
+R2
+R0
+w1693561739
+8C:/Users/hp/Desktop/SingleCycle/instrmem.v
+FC:/Users/hp/Desktop/SingleCycle/instrmem.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hp/Desktop/SingleCycle/instrmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/instrmem.v|
+!i113 1
+R5
+R6
+R7
+n@instr@mem
+vMainDecoder
+R8
+!i10b 1
+!s100 SEiI1d@6h<zZNDl;1F<MV0
+IZVfHg:4@]UfEnKN18Ok342
+R2
+R0
+w1693560578
+8C:/Users/hp/Desktop/SingleCycle/maindecoder.v
+FC:/Users/hp/Desktop/SingleCycle/maindecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hp/Desktop/SingleCycle/maindecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/maindecoder.v|
+!i113 1
+R5
+R6
+R7
+n@main@decoder
+vMux
+R1
+!i10b 1
+!s100 c?dNOEEBg_>6D1;kf?WBm1
+IT^GdD0I0eGJJ@loW>Qcc82
+R2
+R0
+w1693555749
+8C:/Users/hp/Desktop/SingleCycle/Mux.v
+FC:/Users/hp/Desktop/SingleCycle/Mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/Mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/Mux.v|
+!i113 1
+R5
+R6
+R7
+n@mux
+vPC
+R1
+!i10b 1
+!s100 OZ3PC[XQnfW@BcSf0`2c@3
+I>C__3GNYVdD]EfIY8iF?X1
+R2
+R0
+w1693553135
+8C:/Users/hp/Desktop/SingleCycle/pc.v
+FC:/Users/hp/Desktop/SingleCycle/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/pc.v|
+!i113 1
+R5
+R6
+R7
+n@p@c
+vPcadder
+R1
+!i10b 1
+!s100 OfA7ATV?PhL]<U>nAP5b42
+IcY4mdLc:]Oi4egQQQzLe=3
+R2
+R0
+w1693553226
+8C:/Users/hp/Desktop/SingleCycle/pcadder.v
+FC:/Users/hp/Desktop/SingleCycle/pcadder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/pcadder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/pcadder.v|
+!i113 1
+R5
+R6
+R7
+n@pcadder
+vregFile
+R1
+!i10b 1
+!s100 AB365T?837dg<oCiM@Xmf1
+IQf`kFn<G0=4kBE>VbT@AZ2
+R2
+R0
+w1693553466
+8C:/Users/hp/Desktop/SingleCycle/regfile.v
+FC:/Users/hp/Desktop/SingleCycle/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/regfile.v|
+!i113 1
+R5
+R6
+R7
+nreg@file
+vSignExtend
+R8
+!i10b 1
+!s100 ;<Ij1iBEFaW@?LWJZAD4g3
+I^:z8<Tg1;PEmA1]gG2zB;3
+R2
+R0
+w1693555284
+8C:/Users/hp/Desktop/SingleCycle/signextend.v
+FC:/Users/hp/Desktop/SingleCycle/signextend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hp/Desktop/SingleCycle/signextend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/signextend.v|
+!i113 1
+R5
+R6
+R7
+n@sign@extend
+vSingleCycleProcessor
+R1
+!i10b 1
+!s100 A106HD6]4@;1BDn9^GKQE1
+I>@fSaf]YmaPI5L[Sc;DED1
+R2
+R0
+w1693564745
+8C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v
+FC:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v|
+!i113 1
+R5
+R6
+R7
+n@single@cycle@processor
+vSingleCycleProcessor_tb
+R8
+!i10b 1
+!s100 I6=jd7R>ahUEOSXCl:C;50
+I>_]GTJ8P1[hLk853[bGzI2
+R2
+R0
+w1693562992
+8C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v
+FC:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hp/Desktop/SingleCycle|C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v|
+!i113 1
+R5
+R6
+R7
+n@single@cycle@processor_tb

@@ -1,0 +1,181 @@
+# Reading D:/Intel_lite_19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do SingleCycleProcesso_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Intel_lite_19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v 
+# -- Compiling module SingleCycleProcessor
+# 
+# Top level modules:
+# 	SingleCycleProcessor
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/Mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/Mux.v 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/pc.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/pcadder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/pcadder.v 
+# -- Compiling module Pcadder
+# 
+# Top level modules:
+# 	Pcadder
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/regfile.v 
+# -- Compiling module regFile
+# 
+# Top level modules:
+# 	regFile
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/alucontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/alucontrol.v 
+# -- Compiling module AluControl
+# 
+# Top level modules:
+# 	AluControl
+# End time: 17:56:32 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:32 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/control_unit.v 
+# -- Compiling module Control_unit
+# 
+# Top level modules:
+# 	Control_unit
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/maindecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/maindecoder.v 
+# -- Compiling module MainDecoder
+# 
+# Top level modules:
+# 	MainDecoder
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/aludecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/aludecoder.v 
+# -- Compiling module AluDecoder
+# 
+# Top level modules:
+# 	AluDecoder
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/datamem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/datamem.v 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/signextend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/signextend.v 
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	SignExtend
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/instrmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/instrmem.v 
+# -- Compiling module InstrMem
+# 
+# Top level modules:
+# 	InstrMem
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/hp/Desktop/SingleCycle {C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:56:33 on Sep 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hp/Desktop/SingleCycle" C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v 
+# -- Compiling module SingleCycleProcessor_tb
+# 
+# Top level modules:
+# 	SingleCycleProcessor_tb
+# End time: 17:56:33 on Sep 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  SingleCycleProcessor_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" SingleCycleProcessor_tb 
+# Start time: 17:56:34 on Sep 01,2023
+# Loading work.SingleCycleProcessor_tb
+# Loading work.SingleCycleProcessor
+# Loading work.PC
+# Loading work.Pcadder
+# Loading work.InstrMem
+# Loading work.regFile
+# Loading work.AluControl
+# Loading work.Control_unit
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.DataMem
+# Loading work.Mux
+# Loading work.SignExtend
+# ** Warning: (vsim-3017) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(34): [TFMPC] - Too few port connections. Expected 8, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SingleCycleProcessor_tb/Single_Cycle_Top/aluA File: C:/Users/hp/Desktop/SingleCycle/alucontrol.v
+# ** Warning: (vsim-3722) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(34): [TFMPC] - Missing connection for port 'OverFlow'.
+# ** Warning: (vsim-3722) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(34): [TFMPC] - Missing connection for port 'Carry'.
+# ** Warning: (vsim-3722) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(34): [TFMPC] - Missing connection for port 'Negative'.
+# ** Warning: (vsim-3017) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(37): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /SingleCycleProcessor_tb/Single_Cycle_Top/Control_Unit_Top File: C:/Users/hp/Desktop/SingleCycle/control_unit.v
+# ** Warning: (vsim-3722) C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor.v(37): [TFMPC] - Missing connection for port 'ALUOp'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v(29)
+#    Time: 600 ps  Iteration: 0  Instance: /SingleCycleProcessor_tb
+# 1
+# Break in Module SingleCycleProcessor_tb at C:/Users/hp/Desktop/SingleCycle/SingleCycleProcessor_tb.v line 29
+# End time: 17:57:26 on Sep 01,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 6

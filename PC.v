@@ -1,9 +1,21 @@
 module PC(
 	input clk,
-	output[31:0] pc_out,
+	input rst,
+	output reg [31:0] pc_out,
 	input [31:0] pc_in);
 
-	reg [31:0] instr_temp=instr_in;
+
+	 always @(posedge clk ) begin
+		
+		if (rst==1'b0)
+			pc_out<=32'd0;
+		else 
+			pc_out<=pc_in;
+		
+		end
+		
+	 
+endmodule
 	
 
 	
